@@ -1,0 +1,63 @@
+
+
+body {
+    background-color: white;
+    color: black;
+    margin: 0;
+    font-family: 'Quicksand';
+}
+
+body.dark-mode {
+    background-color: blue;
+    color: chartreuse;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    background-color: crimson;
+    padding:  16px;
+    color: darkgoldenrod;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+footer.dark-mode {
+    background-color: darkgreen;
+    color: darkmagenta;
+}
+
+button {
+    border-radius: 40px;
+    font-size: 1.5rem;
+    height: 60px;
+    width: 200px;
+    border: none;
+    background-color: darkred;
+    color: darkturquoise;
+    transition: all 0.5s linear;
+}
+
+button:hover {
+    background-color: deepskyblue;
+}
+
+button.dark-mode {
+    background-color: firebrick;
+    color: black;
+}
+
+button.dark-mode:hover {
+    background-color: chocolate;
+    color: darkgoldenrod;
+}
